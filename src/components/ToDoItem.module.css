@@ -1,0 +1,32 @@
+.todoItem {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todoItem:hover {
+  background-color: rgba(0,0,0,.1);
+}
+
+.todoItem h2 {
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.todoItem h2 > span {
+  font-weight: bold;
+}
+
+.todoItem .desc {
+  padding: 15px 0 0;
+  font-size: 1rem;
+}
+
+.todoItem button {
+  padding: 6px 4px;
+  font-size: 0.85rem;
+  line-height: 1;
+}
