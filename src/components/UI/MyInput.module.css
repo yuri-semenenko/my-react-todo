@@ -1,0 +1,11 @@
+.textField {
+  padding: 8px 12px;
+  background: white;
+  border: 2px dodgerblue solid;
+  border-radius: 5px;
+}
+
+.textField:focus {
+  outline: none;
+  border-color: aqua;
+}

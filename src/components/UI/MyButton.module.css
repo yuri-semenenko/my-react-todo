@@ -1,0 +1,17 @@
+.btn {
+  padding: 8px 12px;
+  background: dodgerblue;
+  border: 2px dodgerblue solid;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn:focus, .btn:hover {
+  cursor: pointer;
+  border-color: aqua;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
