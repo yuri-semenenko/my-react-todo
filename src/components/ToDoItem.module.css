@@ -20,6 +20,24 @@
   font-weight: bold;
 }
 
+.todoItem[data-todo-priority] {
+  border-left-width: 10px;
+  border-left-style: solid;
+}
+
+.todoItem[data-todo-priority="critical"] {
+  border-left-color: red;
+}
+.todoItem[data-todo-priority="high"] {
+  border-left-color: darkorange;
+}
+.todoItem[data-todo-priority="middle"] {
+  border-left-color: teal;
+}
+.todoItem[data-todo-priority="low"] {
+  border-left-color: lightblue;
+}
+
 .todoItem .desc {
   padding: 15px 0 0;
   font-size: 1rem;

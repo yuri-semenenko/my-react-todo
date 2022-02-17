@@ -1,0 +1,11 @@
+.customSelect {
+  padding: 8px 12px;
+  background: white;
+  border: 2px dodgerblue solid;
+  border-radius: 5px;
+}
+
+.customSelect:focus {
+  outline: none;
+  border-color: aqua;
+}
